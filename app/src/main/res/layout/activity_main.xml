@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+   <com.google.android.material.appbar.AppBarLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       tools:ignore="MissingConstraints">
+
+      <androidx.appcompat.widget.Toolbar
+          android:id="@+id/toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#801592"
+          android:titleTextColor="@android:color/white"/>
+   </com.google.android.material.appbar.AppBarLayout>
+
+
+
+   <!-- Grid Layout to hold the floating buttons -->
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:fontFamily="@font/myfont"
+       android:text="@string/spark_women"
+       android:textColor="#811593"
+       android:textSize="40sp"
+       android:textStyle="bold"
+       tools:ignore="MissingConstraints"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       android:layout_marginTop="150dp"/>
+
+   <GridLayout
+       android:id="@+id/gridLayout"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:columnCount="3"
+       android:rowCount="2"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <!-- FloatingActionButton 1 -->
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/fab1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginBottom="50dp"
+          android:layout_row="0"
+          android:layout_column="0"
+          app:layout_anchorGravity="bottom|end"
+          app:shapeAppearanceOverlay="@style/fabstyle"
+          android:src="@drawable/contacts"
+          app:backgroundTint="#CA2EB6"
+          app:fabCustomSize="89dp"
+          app:maxImageSize="50dp"
+          android:contentDescription="@string/fab" />
+
+
+      <!-- FloatingActionButton 2 -->
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/fab2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="1"
+          android:layout_gravity="center"
+          app:layout_anchorGravity="bottom|end"
+          app:shapeAppearanceOverlay="@style/fabstyle"
+          android:layout_marginBottom="50dp"
+          android:src="@drawable/calling"
+          app:backgroundTint="#CA2EB6"
+          app:fabCustomSize="89dp"
+          app:maxImageSize="50dp"
+          android:contentDescription="@string/fab2" />
+
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/fab3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_row="0"
+          android:layout_column="2"
+          app:layout_anchorGravity="bottom|end"
+          app:shapeAppearanceOverlay="@style/fabstyle"
+          android:layout_marginBottom="50dp"
+          android:src="@drawable/beepsound"
+          app:backgroundTint="#CA2EB6"
+          app:fabCustomSize="89dp"
+          app:maxImageSize="50dp"
+          android:contentDescription="@string/fab3" />
+
+      <!-- FloatingActionButton 4 -->
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/fab4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_row="1"
+          android:layout_column="0"
+          app:layout_anchorGravity="bottom|end"
+          app:shapeAppearanceOverlay="@style/fabstyle"
+          android:src="@drawable/selfprotect"
+          app:backgroundTint="#CA2EB6"
+          app:fabCustomSize="89dp"
+          app:maxImageSize="50dp"
+          android:contentDescription="@string/fab4" />
+
+      <!-- FloatingActionButton 5 -->
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/fab5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_row="1"
+          android:layout_column="1"
+          app:layout_anchorGravity="bottom|end"
+          app:shapeAppearanceOverlay="@style/fabstyle"
+          app:fabCustomSize="89dp"
+          app:maxImageSize="50dp"
+          android:src="@drawable/alert"
+          app:backgroundTint="#CA2EB6"
+          android:contentDescription="@string/fab5" />
+
+      <!-- FloatingActionButton 6 -->
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/fab6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_row="1"
+          android:layout_column="2"
+          app:layout_anchorGravity="bottom|end"
+          app:shapeAppearanceOverlay="@style/fabstyle"
+          android:src="@drawable/laws"
+          app:backgroundTint="#CA2EB6"
+          app:fabCustomSize="89dp"
+          app:maxImageSize="50dp"
+          android:contentDescription="@string/fab6" />
+   </GridLayout>
+
+   <androidx.constraintlayout.widget.Group
+       android:id="@+id/group"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+   <androidx.constraintlayout.helper.widget.Flow
+       android:id="@+id/flow"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       tools:ignore="MissingConstraints" />
+
+   <androidx.constraintlayout.widget.Barrier
+       android:id="@+id/barrier"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:barrierDirection="top"
+       app:constraint_referenced_ids="gridLayout" />
+
+
+   <com.google.android.gms.ads.AdView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/adview"
+       app:adSize="BANNER"
+       app:adUnitId="@string/banner_id"
+       app:layout_constraintBottom_toBottomOf="parent"
+       />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

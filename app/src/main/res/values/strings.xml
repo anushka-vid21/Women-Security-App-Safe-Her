@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">MY SAFETY</string>
+    <string name="txt">Safety fits like a Glove ; Try One On</string>
+    <string name="heading">Help is Just A Shake Away</string>
+    <string name="todo">TODO</string>
+    <string name="okay">TODO</string>
+    <string name="new1">TODO</string>
+    <string name="plz">i dont know /n</string>
+    <string name="please">TODO</string>
+    <string name="image">image</string>
+    <string name="add_your_contacts">ADD YOUR CONTACTS</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="cn2">Contact Number</string>
+    <string name="contact_number3">Contact Number</string>
+    <string name="contact_number4">Contact Number</string>
+    <string name="submit">SUBMIT</string>
+    <string name="contact_number5">Contact Number</string>
+    <string name="video">video</string>
+    <string name="sound">sound</string>
+    <string name="button_3">Button 3</string>
+    <string name="fab">TODO</string>
+    <string name="fab2">TODO</string>
+    <string name="fab3">TODO</string>
+    <string name="fab4">TODO</string>
+    <string name="fab6">TODO</string>
+    <string name="fab5">TODO</string>
+    <string name="google_maps_api_key">YOUR_GOOGLE_MAPS_API_KEY_HERE</string>
+    <string name="spark_women">Spark Women</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="laws"><b>LAWS FOR WOMEN AND SECURITY</b>
+        <b>1. The Protection of Women from Domestic Violence Act, 2005 (PWDVA)</b>
+This act provides protection to women from domestic violence, which includes physical, emotional, sexual, and economic abuse. It also provides remedies like protection orders, residence orders, and monetary relief.
+It allows women to seek help from the police, magistrates, or protection officers to ensure their safety.<br />
+        <b>2. Indian Penal Code (IPC) – Sections Related to Sexual Harassment and Assault</b>
+Section 354: Protects women from acts that intend to outrage their modesty, such as assault or force.
+Section 354A: Defines and penalizes sexual harassment, including unwelcome physical contact, demands for sexual favors, and sexually colored remarks.
+Section 354C (Voyeurism): Penalizes capturing or sharing images of a woman engaging in a private act without her consent.
+Section 376: Covers rape, providing stringent punishment for the crime, and includes provisions on consent.<br />
+   <br /> <b>3. The Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013</b>
+This law mandates the prevention and redressal of sexual harassment of women at the workplace.
+It requires employers to set up an Internal Complaints Committee (ICC) in organizations and an Local Complaints Committee (LCC) in districts to address complaints and grievances of sexual harassment.<br />
+   <b> 4. Dowry Prohibition Act, 1961</b>
+This law prohibits the giving or receiving of dowry in marriage. It aims to prevent the dowry system and reduce violence or harassment related to dowry demands.
+The act allows women to file complaints against individuals demanding dowry, with penalties for both the giving and receiving parties.\n\n
+    <b>5. The Immoral Traffic (Prevention) Act, 1956 (ITPA)</b>
+This act seeks to prevent human trafficking and exploitation, particularly the trafficking of women and children for commercial sexual exploitation.
+It provides strict punishment for trafficking and aims to rescue and rehabilitate victims.\n\n
+   <b> 6. The Protection of Children from Sexual Offences Act, 2012 (POCSO)</b>
+While it covers children, the law is often used in cases involving minor girls and offers comprehensive protection against sexual abuse, assault, harassment, and pornography involving minors.
+It sets strict punishments and ensures special courts handle these cases to provide timely justice.\n\n
+   <b> 7. The Maternity Benefit Act, 1961 (Amended in 2017)</b>
+This act entitles women employees to maternity benefits, such as paid leave for up to 26 weeks, along with provisions for nursing breaks and crèche facilities at the workplace.\n\n
+    <b>8. Indecent Representation of Women (Prohibition) Act, 1986</b>
+This law prohibits indecent representation of women through advertisements, publications, writings, paintings, or any other means.
+It aims to curb the objectification of women in media and advertisements.\n\n
+    <b>9. The Medical Termination of Pregnancy (MTP) Act, 1971 (Amended in 2021)</b>
+The MTP Act allows women to legally terminate pregnancies under specific conditions, offering access to safe and legal abortion.
+The 2021 amendment extended the gestational limit for abortion to 24 weeks in specific cases and aims to provide greater reproductive rights to women.\n\n
+    <b>10. The Criminal Law (Amendment) Act, 2013 (Nirbhaya Act)</b>
+After the 2012 Delhi gang rape case, this amendment strengthened existing laws to address sexual violence.
+It redefined rape, introduced new offenses (such as stalking and acid attacks), and increased the punishments for these crimes.<br/>
+    <b>These laws are part of India’s ongoing efforts to provide security, dignity, and equality for women.</b></string>
+</resources>

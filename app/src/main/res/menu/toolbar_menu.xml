@@ -1,0 +1,25 @@
+<!-- res/menu/toolbar_menu.xml -->
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Example menu item with an icon -->
+    <item
+        android:id="@+id/rating"
+        android:icon="@drawable/rate"
+        android:title="Rating"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/baseline_share_24"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

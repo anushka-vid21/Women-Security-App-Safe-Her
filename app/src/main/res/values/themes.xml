@@ -1,0 +1,36 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.CARDVIEWEXMP" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--        <item name="floatingActionButtonStyle">@style/FloatingActionButtonStyle</item>-->
+<!--    </style>-->
+
+<!--    <style name="Theme.CARDVIEWEXMP" parent="Base.Theme.CARDVIEWEXMP" />-->
+
+
+<!--    <style name="FloatingActionButtonStyle" parent="Widget.Design.FloatingActionButton">-->
+<!--        <item name="shapeAppearanceOverlay">@style/fabstyle</item>-->
+<!--    </style>-->
+<!--    <style name="fabstyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">-->
+<!--        <item name="cornerSize">50dp</item>-->
+<!--    </style>-->
+<!--</resources>-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CARDVIEWEXMP" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="floatingActionButtonStyle">@style/FloatingActionButtonStyle</item>
+    </style>
+
+    <style name="Theme.CARDVIEWEXMP" parent="Base.Theme.CARDVIEWEXMP" />
+
+    <style name="FloatingActionButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/fabstyle</item>
+    </style>
+
+    <style name="fabstyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50dp</item>
+    </style>
+</resources>

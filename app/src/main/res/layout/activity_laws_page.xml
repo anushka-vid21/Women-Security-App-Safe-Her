@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <!-- ScrollView to enable vertical scrolling if content exceeds available space -->
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:fillViewport="true">
+
+        <!-- CardView to display the content in a card-like appearance -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="340dp"
+            android:layout_height="500dp"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="11dp"
+            android:backgroundTint="#DB7EEC"
+            card_view:cardUseCompatPadding="true">
+
+            <!-- TextView to display the paragraphs of text -->
+            <TextView
+                android:id="@+id/text_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:text="@string/laws"
+
+                android:lineSpacingExtra="4dp" />
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="129dp"
+        android:text="OK"
+        android:backgroundTint="#DA7EEB"
+        />
+
+</RelativeLayout>
