@@ -16,7 +16,7 @@ public class VideoActivity extends AppCompatActivity {
 
         VideoView videoView= findViewById(R.id.videoview);
 
-        String onlinePath ="https://www.w3schools.com/html/mov_bbb.mp4\n";
+        String onlinePath ="https://www.w3schools.com/html/mov_bbb.mp4\n ";
 
         Uri onlineVideoURI = Uri.parse(onlinePath);
 
